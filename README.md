@@ -12,7 +12,7 @@ Project Overview:Recruiters often need to process hundreds of resumes to find th
 <br><br>
 <b>->Libraries used</b>:NLTK, Pandas, Numpy, Skicit-learn, Spacy(For advanced nlp).
 <br><br>
-<b></b>->Workflow:</b>
+<b>->Workflow:</b>
 <br>
 1)Data preparation
 <br> 2)Text pre-processing using Spacy.
