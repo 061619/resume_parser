@@ -7,4 +7,11 @@ Spacy is an Open-source librrary for advanced NLP tasks in Python. It is fast, e
 <br>-Customizable models.
 <br><br>
 <b>CORE FUNDAMENTALS:</b>
-<br>
+<br>1)Tokenization:Splits the sentences into words, punctuations etc.
+<br>2)Part-of-speech-tagging.
+<br>3)Dependency Parsing:analysing synatic structure of the sentence.
+<br>4)Name entity recognition.
+<br>5)Similarity measurement.
+<br>6)Word vetors.
+<br>7)Lemmatization.
+<br>8)Custom pipelines.
