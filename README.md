@@ -86,7 +86,7 @@ Virtual Environment (Optional but recommended)<br><br>
 2)Clone the Repository<br><br>
 First, open your terminal (or Command Prompt) and run:
 <br><br>
-git clone https://github.com/your-username/resume-parser.git  <br>
+git clone https://github.com/061619/resume_parser.git  <br>
 cd resume-parser <br><br>
 
 3) Create & Activate a Virtual Environment (Optional but Recommended)<br><br>
