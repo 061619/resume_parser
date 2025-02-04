@@ -2,7 +2,7 @@
 <br><br>
 <br><b> Project Overview</b>
 <br><br>
-Recruiters
+Recruiters 
 often need to process hundreds (or even thousands) of resumes to find the best candidates for a job. Manually screening each resume is time-consuming, subjective, and prone to inconsistencies. To solve this challenge, our AI-powered resume screening system automates the process using Natural Language Processing (NLP) and Machine Learning (ML). This system efficiently extracts relevant information, evaluates candidates' skills based on job descriptions, and ranks resumes according to their suitability.
 <br><br>
 By leveraging state-of-the-art NLP models, this project aims to go beyond simple keyword matching and understand the contextual meaning of resumes, ensuring accurate and fair candidate selection.
@@ -73,4 +73,59 @@ Streamlit: For building an interactive and user-friendly dashboard.
 <b>Expected Output</b>
 <br>
 The system will output a ranked list of the top 10 most suitable candidates for a given job description. Each resume will be assigned a similarity score, allowing recruiters to quickly identify the best matches. The dashboard will display the candidates’ key details, extracted skills, and a link to their resumes.
+<br><br>
+🚀 <b>How to Run This Resume Parser Project</b><br><br>
+Prerequisites
+<br>
+1)Before running this project, ensure you have the following installed:
+<br><br>
+Python 3.8+ (Check using python --version)<br>
+pip (Check using pip --version)<br>
+Virtual Environment (Optional but recommended)<br><br>
 
+2)Clone the Repository<br><br>
+First, open your terminal (or Command Prompt) and run:
+<br><br>
+git clone https://github.com/your-username/resume-parser.git  <br>
+cd resume-parser <br><br>
+
+3) Create & Activate a Virtual Environment (Optional but Recommended)<br><br>
+Windows<br>
+python -m venv venv  <br>
+venv\Scripts\activate  <br><br>
+Mac/Linux<br>
+python3 -m venv venv  <br>
+source venv/bin/activate  <br><br>
+4)Install Dependencies<br>
+Run the following command to install all required Python libraries:
+<br><br>
+pip install -r requirements.txt  
+<br><br>
+If you are using Conda, run:
+<br>
+conda env create -f environment.yml  <br>
+conda activate resume-parser  <br><br>
+5)Download Necessary NLP Models<br>
+Since we are using spaCy, install the required language model:
+<br><br>
+python -m spacy download en_core_web_sm  <br><br>
+6) Run the Resume Parser<br>
+Now, you can start the Streamlit app:
+<br><br>
+
+streamlit run resume_parser.py  <br>
+or run the script directly:
+<b=r>
+python resume_parser.py  <br><br>
+<b>How to Use</b><br>
+1) Select a job title from the left sidebar.<br>
+2)The system will analyze and rank resumes based on similarity.<br>
+3)Top 10 resumes will be displayed with similarity scores.<br>
+<br>
+<b>Troubleshooting</b>
+If you get a ModuleNotFoundError, try reinstalling dependencies:<br>
+pip install -r requirements.txt  <br>
+If Streamlit doesn’t run, try:<br>
+
+pip install streamlit <br> 
+streamlit run resume_parser.py
